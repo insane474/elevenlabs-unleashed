@@ -1,0 +1,6 @@
+services:
+  elevenlabsunleashed:
+    image: elevenlabsunleashed
+    build:
+      context: .
+      dockerfile: ./Dockerfile
